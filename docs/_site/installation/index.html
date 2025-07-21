@@ -1,0 +1,206 @@
+<!DOCTYPE html> <html lang="en-US"> <head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=Edge"> <link rel="stylesheet" href="/ModCube.github.io/assets/css/just-the-docs-default.css"> <link rel="stylesheet" href="/ModCube.github.io/assets/css/just-the-docs-head-nav.css" id="jtd-head-nav-stylesheet"> <style id="jtd-nav-activation"> .site-nav > ul.nav-list:first-child > li:not(:nth-child(6)) > a, .site-nav > ul.nav-list:first-child > li > ul > li a { background-image: none; } .site-nav > ul.nav-list:not(:first-child) a, .site-nav li.external a { background-image: none; } .site-nav > ul.nav-list:first-child > li:nth-child(6) > a { font-weight: 600; text-decoration: none; }.site-nav > ul.nav-list:first-child > li:nth-child(6) > button svg { transform: rotate(-90deg); }.site-nav > ul.nav-list:first-child > li.nav-list-item:nth-child(6) > ul.nav-list { display: block; } </style> <script src="/ModCube.github.io/assets/js/vendor/lunr.min.js"></script> <script src="/ModCube.github.io/assets/js/just-the-docs.js"></script> <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Begin Jekyll SEO tag v2.8.0 --> <title>Installation Guide | RS-ModCubes</title> <meta name="generator" content="Jekyll v4.3.4" /> <meta property="og:title" content="Installation Guide" /> <meta name="author" content="Jiaxi Zheng" /> <meta property="og:locale" content="en_US" /> <meta name="description" content="Self-Reconfigurable, Scalable Modular Cubic Robots for Underwater Operations" /> <meta property="og:description" content="Self-Reconfigurable, Scalable Modular Cubic Robots for Underwater Operations" /> <link rel="canonical" href="http://0.0.0.0:4000/ModCube.github.io/installation/" /> <meta property="og:url" content="http://0.0.0.0:4000/ModCube.github.io/installation/" /> <meta property="og:site_name" content="RS-ModCubes" /> <meta property="og:type" content="website" /> <meta name="twitter:card" content="summary" /> <meta property="twitter:title" content="Installation Guide" /> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Jiaxi Zheng"},"description":"Self-Reconfigurable, Scalable Modular Cubic Robots for Underwater Operations","headline":"Installation Guide","url":"http://0.0.0.0:4000/ModCube.github.io/installation/"}</script> <!-- End Jekyll SEO tag --> </head> <body> <a class="skip-to-main" href="#main-content">Skip to main content</a> <svg xmlns="http://www.w3.org/2000/svg" class="d-none"> <symbol id="svg-link" viewBox="0 0 24 24"> <title>Link</title> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"> <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path> </svg> </symbol> <symbol id="svg-menu" viewBox="0 0 24 24"> <title>Menu</title> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"> <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line> </svg> </symbol> <symbol id="svg-arrow-right" viewBox="0 0 24 24"> <title>Expand</title> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"> <polyline points="9 18 15 12 9 6"></polyline> </svg> </symbol> <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE --> <symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"> <title id="svg-external-link-title">(external link)</title> <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line> </symbol> <symbol id="svg-doc" viewBox="0 0 24 24"> <title>Document</title> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"> <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline> </svg> </symbol> <symbol id="svg-search" viewBox="0 0 24 24"> <title>Search</title> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"> <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line> </svg> </symbol> <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md --> <symbol id="svg-copy" viewBox="0 0 16 16"> <title>Copy</title> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16"> <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/> <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/> </svg> </symbol> <symbol id="svg-copied" viewBox="0 0 16 16"> <title>Copied</title> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16"> <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/> <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/> </svg> </symbol> </svg> <div class="side-bar"> <div class="site-header" role="banner"> <a href="/ModCube.github.io/" class="site-title lh-tight"> RS-ModCubes </a> <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false"> <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg> </button> </div> <nav aria-label="Main" id="site-nav" class="site-nav"> <ul class="nav-list"><li class="nav-list-item"><a href="/ModCube.github.io/" class="nav-list-link">Home</a></li><li class="nav-list-item"><a href="/ModCube.github.io/architecture/" class="nav-list-link">System Architecture</a></li><li class="nav-list-item"><a href="/ModCube.github.io/tutorials/" class="nav-list-link">Tutorials</a></li><li class="nav-list-item"><a href="/ModCube.github.io/api/" class="nav-list-link">API Documentation</a></li><li class="nav-list-item"><a href="/ModCube.github.io/examples/" class="nav-list-link">Examples</a></li><li class="nav-list-item"><a href="/ModCube.github.io/installation/" class="nav-list-link">Installation Guide</a></li><li class="nav-list-item"><a href="/ModCube.github.io/faq/" class="nav-list-link">FAQ</a></li><li class="nav-list-item"><a href="/ModCube.github.io/contributing/" class="nav-list-link">Contributing</a></li><li class="nav-list-item"><a href="/ModCube.github.io/changelog/" class="nav-list-link">Changelog</a></li></ul> <ul class="nav-list"><li class="nav-list-item external"> <a href="https://github.com/jiaxi-zheng/ModCube.github.io" class="nav-list-link external" > GitHub Repository <svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg> </a> </li></ul> </nav> <footer class="site-footer"> This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll. </footer> </div> <div class="main" id="top"> <div id="main-header" class="main-header"> <div class="search" role="search"> <div class="search-input-wrap"> <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search RS-ModCubes" aria-label="Search RS-ModCubes" autocomplete="off"> <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label> </div> <div id="search-results" class="search-results"></div> </div> </div> <div class="main-content-wrap"> <div id="main-content" class="main-content"> <main> <h1 id="installation-guide"> <a href="#installation-guide" class="anchor-heading" aria-labelledby="installation-guide"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Installation Guide </h1> <p>This guide provides step-by-step instructions for installing and configuring the RS-ModCubes system on your development environment.</p> <h2 id="prerequisites"> <a href="#prerequisites" class="anchor-heading" aria-labelledby="prerequisites"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Prerequisites </h2> <h3 id="system-requirements"> <a href="#system-requirements" class="anchor-heading" aria-labelledby="system-requirements"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> System Requirements </h3> <p><strong>Operating System</strong>:</p> <ul> <li>Ubuntu 18.04 LTS (Bionic Beaver) - Recommended</li> <li>Ubuntu 20.04 LTS (Focal Fossa) - Supported</li> <li>Other Linux distributions may work but are not officially supported</li> </ul> <p><strong>Hardware Requirements</strong>:</p> <ul> <li><strong>CPU</strong>: Intel i5 or AMD equivalent (minimum), Intel i7 or better (recommended)</li> <li><strong>RAM</strong>: 8 GB (minimum), 16 GB or more (recommended)</li> <li><strong>Storage</strong>: 20 GB free space (minimum), SSD recommended</li> <li><strong>Graphics</strong>: Dedicated GPU recommended for Gazebo simulation</li> </ul> <h3 id="software-dependencies"> <a href="#software-dependencies" class="anchor-heading" aria-labelledby="software-dependencies"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Software Dependencies </h3> <p><strong>ROS Distribution</strong>:</p> <ul> <li>ROS Melodic (Ubuntu 18.04)</li> <li>ROS Noetic (Ubuntu 20.04)</li> </ul> <p><strong>Required Packages</strong>:</p> <ul> <li>Python 2.7 or 3.x</li> <li>Git</li> <li>CMake 3.10+</li> <li>GCC/G++ compiler</li> <li>Gazebo 9.0+</li> </ul> <h2 id="installation-steps"> <a href="#installation-steps" class="anchor-heading" aria-labelledby="installation-steps"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Installation Steps </h2> <h3 id="step-1-install-ros"> <a href="#step-1-install-ros" class="anchor-heading" aria-labelledby="step-1-install-ros"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 1: Install ROS </h3> <h4 id="for-ubuntu-1804-ros-melodic"> <a href="#for-ubuntu-1804-ros-melodic" class="anchor-heading" aria-labelledby="for-ubuntu-1804-ros-melodic"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> For Ubuntu 18.04 (ROS Melodic) </h4> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Setup sources.list</span>
+<span class="nb">sudo </span>sh <span class="nt">-c</span> <span class="s1">'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" &gt; /etc/apt/sources.list.d/ros-latest.list'</span>
+
+<span class="c"># Setup keys</span>
+<span class="nb">sudo </span>apt-key adv <span class="nt">--keyserver</span> <span class="s1">'hkp://keyserver.ubuntu.com:80'</span> <span class="nt">--recv-key</span> C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+
+<span class="c"># Update package index</span>
+<span class="nb">sudo </span>apt update
+
+<span class="c"># Install ROS Melodic Desktop Full</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>ros-melodic-desktop-full
+
+<span class="c"># Initialize rosdep</span>
+<span class="nb">sudo </span>rosdep init
+rosdep update
+
+<span class="c"># Setup environment</span>
+<span class="nb">echo</span> <span class="s2">"source /opt/ros/melodic/setup.bash"</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nb">source</span> ~/.bashrc
+
+<span class="c"># Install additional tools</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>python-rosinstall python-rosinstall-generator python-wstool build-essential
+</code></pre></div></div> <h4 id="for-ubuntu-2004-ros-noetic"> <a href="#for-ubuntu-2004-ros-noetic" class="anchor-heading" aria-labelledby="for-ubuntu-2004-ros-noetic"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> For Ubuntu 20.04 (ROS Noetic) </h4> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Setup sources.list</span>
+<span class="nb">sudo </span>sh <span class="nt">-c</span> <span class="s1">'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" &gt; /etc/apt/sources.list.d/ros-latest.list'</span>
+
+<span class="c"># Setup keys</span>
+<span class="nb">sudo </span>apt-key adv <span class="nt">--keyserver</span> <span class="s1">'hkp://keyserver.ubuntu.com:80'</span> <span class="nt">--recv-key</span> C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+
+<span class="c"># Update package index</span>
+<span class="nb">sudo </span>apt update
+
+<span class="c"># Install ROS Noetic Desktop Full</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>ros-noetic-desktop-full
+
+<span class="c"># Initialize rosdep</span>
+<span class="nb">sudo </span>rosdep init
+rosdep update
+
+<span class="c"># Setup environment</span>
+<span class="nb">echo</span> <span class="s2">"source /opt/ros/noetic/setup.bash"</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nb">source</span> ~/.bashrc
+
+<span class="c"># Install additional tools</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+</code></pre></div></div> <h3 id="step-2-install-additional-dependencies"> <a href="#step-2-install-additional-dependencies" class="anchor-heading" aria-labelledby="step-2-install-additional-dependencies"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 2: Install Additional Dependencies </h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Install Gazebo (if not already installed with ROS)</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>gazebo9 libgazebo9-dev
+
+<span class="c"># Install additional ROS packages</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>ros-<span class="nv">$ROS_DISTRO</span><span class="nt">-gazebo-ros-pkgs</span> ros-<span class="nv">$ROS_DISTRO</span><span class="nt">-gazebo-ros-control</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>ros-<span class="nv">$ROS_DISTRO</span><span class="nt">-joint-state-publisher</span> ros-<span class="nv">$ROS_DISTRO</span><span class="nt">-robot-state-publisher</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>ros-<span class="nv">$ROS_DISTRO</span><span class="nt">-xacro</span> ros-<span class="nv">$ROS_DISTRO</span><span class="nt">-tf2-tools</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>ros-<span class="nv">$ROS_DISTRO</span><span class="nt">-rqt</span> ros-<span class="nv">$ROS_DISTRO</span><span class="nt">-rqt-common-plugins</span>
+
+<span class="c"># Install Python dependencies</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>python3-pip
+pip3 <span class="nb">install </span>numpy scipy matplotlib
+
+<span class="c"># Install Git LFS (for large files)</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>git-lfs
+git lfs <span class="nb">install</span>
+</code></pre></div></div> <h3 id="step-3-create-workspace"> <a href="#step-3-create-workspace" class="anchor-heading" aria-labelledby="step-3-create-workspace"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 3: Create Workspace </h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Create catkin workspace</span>
+<span class="nb">mkdir</span> <span class="nt">-p</span> ~/modcube_ws/src
+<span class="nb">cd</span> ~/modcube_ws/
+catkin_make
+
+<span class="c"># Setup workspace environment</span>
+<span class="nb">echo</span> <span class="s2">"source ~/modcube_ws/devel/setup.bash"</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nb">source</span> ~/.bashrc
+</code></pre></div></div> <h3 id="step-4-clone-repository"> <a href="#step-4-clone-repository" class="anchor-heading" aria-labelledby="step-4-clone-repository"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 4: Clone Repository </h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Navigate to workspace source directory</span>
+<span class="nb">cd</span> ~/modcube_ws/src
+
+<span class="c"># Clone the ModCube repository</span>
+git clone https://github.com/jiaxi-zheng/ModCube.git
+
+<span class="c"># Navigate to the cloned repository</span>
+<span class="nb">cd </span>ModCube
+
+<span class="c"># Initialize and update submodules</span>
+git submodule init
+git submodule update
+</code></pre></div></div> <h3 id="step-5-install-package-dependencies"> <a href="#step-5-install-package-dependencies" class="anchor-heading" aria-labelledby="step-5-install-package-dependencies"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 5: Install Package Dependencies </h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Navigate to workspace root</span>
+<span class="nb">cd</span> ~/modcube_ws
+
+<span class="c"># Install dependencies using rosdep</span>
+rosdep <span class="nb">install</span> <span class="nt">--from-paths</span> src <span class="nt">--ignore-src</span> <span class="nt">-r</span> <span class="nt">-y</span>
+
+<span class="c"># Install additional Python dependencies</span>
+<span class="nb">cd </span>src/ModCube
+pip3 <span class="nb">install</span> <span class="nt">-r</span> requirements.txt  <span class="c"># If requirements.txt exists</span>
+</code></pre></div></div> <h3 id="step-6-build-the-workspace"> <a href="#step-6-build-the-workspace" class="anchor-heading" aria-labelledby="step-6-build-the-workspace"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 6: Build the Workspace </h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Navigate to workspace root</span>
+<span class="nb">cd</span> ~/modcube_ws
+
+<span class="c"># Build all packages</span>
+catkin_make
+
+<span class="c"># Alternative: Build with specific number of jobs</span>
+catkin_make <span class="nt">-j4</span>
+
+<span class="c"># Source the workspace</span>
+<span class="nb">source </span>devel/setup.bash
+</code></pre></div></div> <h2 id="configuration"> <a href="#configuration" class="anchor-heading" aria-labelledby="configuration"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Configuration </h2> <h3 id="environment-setup"> <a href="#environment-setup" class="anchor-heading" aria-labelledby="environment-setup"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Environment Setup </h3> <p>Add the following to your <code class="language-plaintext highlighter-rouge">~/.bashrc</code> file:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># ROS Environment</span>
+<span class="nb">source</span> /opt/ros/<span class="nv">$ROS_DISTRO</span>/setup.bash
+<span class="nb">source</span> ~/modcube_ws/devel/setup.bash
+
+<span class="c"># Gazebo Environment</span>
+<span class="nb">export </span><span class="nv">GAZEBO_MODEL_PATH</span><span class="o">=</span><span class="nv">$GAZEBO_MODEL_PATH</span>:~/modcube_ws/src/ModCube/packages/modcube_sim_worlds/models
+<span class="nb">export </span><span class="nv">GAZEBO_RESOURCE_PATH</span><span class="o">=</span><span class="nv">$GAZEBO_RESOURCE_PATH</span>:~/modcube_ws/src/ModCube/packages/modcube_sim_worlds
+
+<span class="c"># ModCube specific environment variables</span>
+<span class="nb">export </span><span class="nv">MODCUBE_CONFIG_PATH</span><span class="o">=</span>~/modcube_ws/src/ModCube/packages/modcube_config
+<span class="nb">export </span><span class="nv">MODCUBE_WORKSPACE</span><span class="o">=</span>~/modcube_ws
+</code></pre></div></div> <h3 id="network-configuration"> <a href="#network-configuration" class="anchor-heading" aria-labelledby="network-configuration"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Network Configuration </h3> <p>For multi-machine setups:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Set ROS Master URI (replace with actual master IP)</span>
+<span class="nb">export </span><span class="nv">ROS_MASTER_URI</span><span class="o">=</span>http://192.168.1.100:11311
+
+<span class="c"># Set ROS IP (replace with your machine's IP)</span>
+<span class="nb">export </span><span class="nv">ROS_IP</span><span class="o">=</span>192.168.1.101
+</code></pre></div></div> <h2 id="verification"> <a href="#verification" class="anchor-heading" aria-labelledby="verification"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Verification </h2> <h3 id="test-basic-installation"> <a href="#test-basic-installation" class="anchor-heading" aria-labelledby="test-basic-installation"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Test Basic Installation </h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Test ROS installation</span>
+roscore &amp;
+rostopic list
+killall roscore
+
+<span class="c"># Test Gazebo installation</span>
+gazebo <span class="nt">--version</span>
+
+<span class="c"># Test ModCube packages</span>
+rospack find modcube_common
+rospack find modcube_mission
+rospack find modcube_vehicle
+</code></pre></div></div> <h3 id="run-simple-simulation"> <a href="#run-simple-simulation" class="anchor-heading" aria-labelledby="run-simple-simulation"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Run Simple Simulation </h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Launch basic simulation</span>
+roslaunch modcube_mission system.launch model_name:<span class="o">=</span>modcube simulated:<span class="o">=</span><span class="nb">true</span>
+
+<span class="c"># In another terminal, check running nodes</span>
+rosnode list
+
+<span class="c"># Check topics</span>
+rostopic list
+</code></pre></div></div> <h2 id="hardware-setup-optional"> <a href="#hardware-setup-optional" class="anchor-heading" aria-labelledby="hardware-setup-optional"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Hardware Setup (Optional) </h2> <h3 id="imu-configuration"> <a href="#imu-configuration" class="anchor-heading" aria-labelledby="imu-configuration"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> IMU Configuration </h3> <p>For Xsens IMU systems:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Install Xsens drivers (follow manufacturer instructions)</span>
+<span class="c"># Configure USB permissions</span>
+<span class="nb">sudo </span>usermod <span class="nt">-a</span> <span class="nt">-G</span> dialout <span class="nv">$USER</span>
+
+<span class="c"># Create udev rules for IMU</span>
+<span class="nb">sudo </span>nano /etc/udev/rules.d/99-xsens.rules
+<span class="c"># Add: SUBSYSTEM=="usb", ATTRS{idVendor}=="2639", MODE="0666"</span>
+
+<span class="c"># Reload udev rules</span>
+<span class="nb">sudo </span>udevadm control <span class="nt">--reload-rules</span>
+<span class="nb">sudo </span>udevadm trigger
+</code></pre></div></div> <h3 id="dvl-configuration"> <a href="#dvl-configuration" class="anchor-heading" aria-labelledby="dvl-configuration"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> DVL Configuration </h3> <p>For Teledyne DVL systems:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Configure serial port permissions</span>
+<span class="nb">sudo </span>usermod <span class="nt">-a</span> <span class="nt">-G</span> dialout <span class="nv">$USER</span>
+
+<span class="c"># Create udev rules for DVL</span>
+<span class="nb">sudo </span>nano /etc/udev/rules.d/99-teledyne.rules
+<span class="c"># Add appropriate rules based on your DVL model</span>
+
+<span class="c"># Test serial communication</span>
+<span class="nb">sudo </span>apt <span class="nb">install </span>minicom
+minicom <span class="nt">-D</span> /dev/ttyUSB0 <span class="nt">-b</span> 115200
+</code></pre></div></div> <h3 id="thruster-configuration"> <a href="#thruster-configuration" class="anchor-heading" aria-labelledby="thruster-configuration"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Thruster Configuration </h3> <p>For Pololu Maestro PWM controllers:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Install Pololu software</span>
+wget https://www.pololu.com/file/0J315/pololu-usb-sdk-120404.tar.gz
+<span class="nb">tar</span> <span class="nt">-xzf</span> pololu-usb-sdk-120404.tar.gz
+<span class="nb">cd </span>pololu-usb-sdk-120404
+make
+<span class="nb">sudo </span>make <span class="nb">install</span>
+
+<span class="c"># Configure USB permissions</span>
+<span class="nb">sudo </span>nano /etc/udev/rules.d/99-pololu.rules
+<span class="c"># Add: SUBSYSTEM=="usb", ATTRS{idVendor}=="1ffb", MODE="0666"</span>
+
+<span class="c"># Reload udev rules</span>
+<span class="nb">sudo </span>udevadm control <span class="nt">--reload-rules</span>
+</code></pre></div></div> <h2 id="troubleshooting"> <a href="#troubleshooting" class="anchor-heading" aria-labelledby="troubleshooting"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Troubleshooting </h2> <h3 id="common-issues"> <a href="#common-issues" class="anchor-heading" aria-labelledby="common-issues"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Common Issues </h3> <p><strong>Issue</strong>: <code class="language-plaintext highlighter-rouge">catkin_make</code> fails with dependency errors</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Solution: Install missing dependencies</span>
+rosdep <span class="nb">install</span> <span class="nt">--from-paths</span> src <span class="nt">--ignore-src</span> <span class="nt">-r</span> <span class="nt">-y</span>
+</code></pre></div></div> <p><strong>Issue</strong>: Gazebo crashes or runs slowly</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Solution: Check graphics drivers and reduce simulation complexity</span>
+<span class="nb">export </span><span class="nv">LIBGL_ALWAYS_SOFTWARE</span><span class="o">=</span>1  <span class="c"># For software rendering</span>
+</code></pre></div></div> <p><strong>Issue</strong>: Cannot find ModCube packages</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Solution: Source the workspace</span>
+<span class="nb">source</span> ~/modcube_ws/devel/setup.bash
+</code></pre></div></div> <p><strong>Issue</strong>: Permission denied for hardware devices</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Solution: Add user to appropriate groups</span>
+<span class="nb">sudo </span>usermod <span class="nt">-a</span> <span class="nt">-G</span> dialout <span class="nv">$USER</span>
+<span class="nb">sudo </span>usermod <span class="nt">-a</span> <span class="nt">-G</span> plugdev <span class="nv">$USER</span>
+<span class="c"># Log out and log back in</span>
+</code></pre></div></div> <h3 id="debug-commands"> <a href="#debug-commands" class="anchor-heading" aria-labelledby="debug-commands"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Debug Commands </h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Check ROS environment</span>
+<span class="nb">env</span> | <span class="nb">grep </span>ROS
+
+<span class="c"># Check package dependencies</span>
+rospack depends modcube_common
+
+<span class="c"># Check for missing dependencies</span>
+rosdep check <span class="nt">--from-paths</span> src <span class="nt">--ignore-src</span>
+
+<span class="c"># Verbose catkin build</span>
+catkin_make <span class="nt">--verbose</span>
+
+<span class="c"># Check Gazebo plugins</span>
+gazebo <span class="nt">--verbose</span>
+</code></pre></div></div> <h3 id="log-files"> <a href="#log-files" class="anchor-heading" aria-labelledby="log-files"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Log Files </h3> <p>Important log locations:</p> <ul> <li>ROS logs: <code class="language-plaintext highlighter-rouge">~/.ros/log/</code></li> <li>Gazebo logs: <code class="language-plaintext highlighter-rouge">~/.gazebo/</code></li> <li>System logs: <code class="language-plaintext highlighter-rouge">/var/log/syslog</code></li> </ul> <h2 id="performance-optimization"> <a href="#performance-optimization" class="anchor-heading" aria-labelledby="performance-optimization"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Performance Optimization </h2> <h3 id="build-optimization"> <a href="#build-optimization" class="anchor-heading" aria-labelledby="build-optimization"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Build Optimization </h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Use multiple cores for building</span>
+catkin_make <span class="nt">-j</span><span class="si">$(</span><span class="nb">nproc</span><span class="si">)</span>
+
+<span class="c"># Release build for better performance</span>
+catkin_make <span class="nt">-DCMAKE_BUILD_TYPE</span><span class="o">=</span>Release
+</code></pre></div></div> <h3 id="runtime-optimization"> <a href="#runtime-optimization" class="anchor-heading" aria-labelledby="runtime-optimization"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Runtime Optimization </h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Increase ROS message buffer sizes</span>
+<span class="nb">export </span><span class="nv">ROSCONSOLE_CONFIG_FILE</span><span class="o">=</span>~/modcube_ws/src/ModCube/config/rosconsole.conf
+
+<span class="c"># Optimize Gazebo performance</span>
+<span class="nb">export </span><span class="nv">GAZEBO_MASTER_URI</span><span class="o">=</span>http://localhost:11345
+<span class="nb">export </span><span class="nv">GAZEBO_MODEL_DATABASE_URI</span><span class="o">=</span>http://gazebosim.org/models
+</code></pre></div></div> <h2 id="next-steps"> <a href="#next-steps" class="anchor-heading" aria-labelledby="next-steps"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Next Steps </h2> <p>After successful installation:</p> <ol> <li><strong>Read the <a href="tutorials.md">Tutorials</a></strong> to learn basic system usage</li> <li><strong>Explore <a href="examples.md">Examples</a></strong> for practical applications</li> <li><strong>Review <a href="api.md">API Documentation</a></strong> for development</li> <li><strong>Join the community</strong> for support and contributions</li> </ol> <h2 id="support"> <a href="#support" class="anchor-heading" aria-labelledby="support"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Support </h2> <p>If you encounter issues during installation:</p> <ol> <li>Check the <a href="#troubleshooting">Troubleshooting</a> section</li> <li>Search existing <a href="https://github.com/jiaxi-zheng/ModCube/issues">GitHub Issues</a></li> <li>Create a new issue with detailed error information</li> <li>Contact the development team</li> </ol> <h2 id="contributing"> <a href="#contributing" class="anchor-heading" aria-labelledby="contributing"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Contributing </h2> <p>Interested in contributing? See our <a href="https://github.com/jiaxi-zheng/ModCube/blob/main/CONTRIBUTING.md">Contributing Guidelines</a> for development setup and contribution process.</p> </main> <hr> <footer> <p><a href="#top" id="back-to-top">Back to top</a></p> <p class="text-small text-grey-dk-100 mb-0">Copyright &copy; 2024 Jiaxi Zheng. Distributed by an <a href="https://github.com/jiaxi-zheng/ModCube.github.io/tree/main/LICENSE">MIT license.</a></p> </footer> </div> </div> <div class="search-overlay"></div> </div> </body> </html>

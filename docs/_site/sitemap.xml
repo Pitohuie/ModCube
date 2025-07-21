@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://0.0.0.0:4000/ModCube.github.io/api/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/ModCube.github.io/architecture/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/ModCube.github.io/changelog/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/ModCube.github.io/contributing/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/ModCube.github.io/examples/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/ModCube.github.io/faq/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/ModCube.github.io/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/ModCube.github.io/installation/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/ModCube.github.io/tutorials/</loc>
+</url>
+</urlset>
